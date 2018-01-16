@@ -1,0 +1,338 @@
+/* ==========================================================================
+   Nguyen Trong Nghia
+   ========================================================================== */
+   @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+   html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    font-size: 15px;
+    background: #691b1d;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  form {
+    margin: 0
+  }
+  a {
+   color: #333; 
+   cursor: pointer
+ }
+ a, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #0076a1;
+}
+input, input:focus {
+  outline: none
+}
+#container .container {
+  position: relative;
+  max-width: 960px;
+  height: auto;
+}
+body,h1,h2,h3,h4,p,a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+   @media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+   }
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+   @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+   }
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+   @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+   }
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+   @media only screen and (min-width: 100px) and (max-width: 479px) {
+    header .navbar-header h1 img {
+      width: 70%;
+      line-height: 0;
+    }
+    header .hotline {
+      float: left;
+      padding-top: 10px;
+      width: 50%;
+      position: initial;
+      display: block;
+      padding-bottom: 15px;
+    }
+  }
+  header .wrap-menu{
+    min-height: 90px;
+  }
+  header .wrap-menu h1{
+    display: inline-block;
+  }
+  header .hotline{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+  }
+  header .wrap-menu ul {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 25px 20px;
+  }
+  header .wrap-menu ul li a {
+    border: none;
+    color: #fff;
+    padding: 10px 17px;
+    text-transform: uppercase;
+  }
+  header .wrap-menu ul li a:hover{
+    background: none;
+    color: yellow;
+  }
+  .nav>li>a{
+    display: block;
+    position: relative;
+  }
+  #container .container{
+    max-width: 1300px;
+    height: auto;
+  }
+  .banner img{
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+  }
+  .fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+  }
+  .fa-info:before {
+    content: "\f129";
+  }
+  .swrap-product h3{
+    color: #fff568;
+  }
+  .wrap-product hr, .wrap-info hr, .wrap-feeling hr {
+    width: 95px;
+    height: 2px;
+    font-size: 0;
+    border: 0;
+  }
+  .wrap-product hr {
+    background: #fff568;
+    float: left;
+  }
+  .wrap-info-product .col-md-7{
+   padding-right: 0px; 
+   padding-left: 0px; 
+ }
+ .wrap-info-product .col-md-5{
+  padding-top: 10px;
+  padding-right: 0px; 
+  padding-left: 0px; 
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info{
+  color: #691b1d;
+  background: white;
+}
+.info h5{
+  background: #e1e1e1;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.info p{
+  margin: 0px 0 -8px;
+  padding: 5px;
+  font-size: 15px;
+}
+.wrap-icon
+{
+  padding: 50px;
+  text-align: center;
+}
+.wrap-icon .icon{
+  margin-right: 60px;
+}
+.wrap-info
+{
+  text-align: center;
+}
+.wrap-info hr{
+  background: #691b1d;
+}
+.wrap-info h3{
+  margin-top:50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.wrap-info h4{
+  text-transform: uppercase;
+  padding-bottom: 100px;
+  font-weight:bold;
+  font-size:30px;
+}
+.wrap-feeling h3{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40px;
+  color:#fff568;
+  text-align: center;
+}
+
+.wrap-comment {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #ebebeb;
+}
+.box{
+  margin:auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: white;
+  border-radius: 25px;
+}
+.quest{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.quest p{
+  font-weight: bold;
+  color:#691b1d;
+  font-size: 20px;
+}
+
+.reply{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.reply p{
+  color: #959595;
+  font-size: 20px;
+}
+.member img{
+  margin-top: 40px;
+  float: right;
+  border-radius: 50px;
+  width: 20%;
+}
+.infomation{
+ float: right;
+  padding-top: 50px;
+}
+.name{
+  text-align: center;
+  color: #691b1d;
+  font-weight: bold;
+}
+.email{
+  margin-right: 10px;
+  font-size: 15px;
+ font-style: italic;
+}
+
+
+.left-btn{
+  margin-left: -160px;
+}
+.right-btn{
+  margin-left: 1100px;
+  }
+.wrap-info p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.wrap-feeling hr{
+  background: #fff568;
+}
+#feeling .item: {
+  color: white;
+  width: 50%;
+}
+#feeling p {
+  color: white;
+  text-align: center;
+}
+#feeling .container{
+  width: 60%;
+  padding: 20px 0px 20px 0px;
+}
+.main-footer h4 i{
+  float: right;
+}
+.main-footer h4{
+  padding: 10px;
+  line-height: 30px;
+  font-size: 25px;
+  color:white;
+  background: #5c1315;
+}
+.main-footer p{
+  color: white;
+  margin-bottom: 20px;
+}
+.main-footer .row{
+  margin-bottom: 50px;
+}
+.if img{
+  width: 100px;
+}
+.if .content{
+  float:left;
+}
+.if .av{
+  float: left;
+}
+.if h5{ 
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+}
+.if p{
+  margin: 0px;
+}
+.form-control{
+  background: #691b1d;
+  margin-bottom: 10px;
+}
+.btn-default{
+  background: #691b1d;
+  float: right;
+}
+.copyright{
+  color: white;
+  font-size: 17px;
+  background: #5c1315;
+}
+
+.carousel-control.left{
+  background: none;
+}
+.carousel-control.right{
+  background: none;
+}
