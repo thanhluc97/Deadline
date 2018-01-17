@@ -1,0 +1,214 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	background: #691b1d;
+}
+.logo{
+	text-align: center;
+}
+.menu{
+	border:none;
+	font-size: 20px;
+	padding-left: 15%;
+	margin-top: 15px;
+	background: #872123;
+}
+.nav > li > a:hover{
+	background-color: #691b1d;
+	color: yellow;
+}
+.nav > li > a{
+
+	color: white;
+	border-left:1px solid white;
+}
+.content .col-md-7{
+	background: white;
+}
+.content img{
+	margin-top: 15px;
+	width: 100%;
+
+}
+.search{
+	margin-right: 100px;
+	padding-left: 10px;
+	font-size: 25px;
+	background: white;
+	padding-top: 20px;
+}
+.btn{
+    background: #691b1d;
+    margin-top: 9px;
+    position: absolute;
+    height: 41px;
+    margin-left: -40px;
+}
+.btn-default{
+	text-shadow: none;
+}
+.btn span{
+	color:white;
+}
+input[type="search"] {
+    -webkit-appearance: none;
+}
+.search a{
+	text-decoration: none;
+	color:black;
+}
+hr{
+	background: : black;
+}
+.search-field
+{
+	margin-top: 10px;
+}
+.search-text{
+	padding-bottom: 15px;
+}
+.search hr{
+	background: #872123;
+	bottom: -5px;
+	content: "";
+	width: 50px;
+	height: 5px;
+	left: 0;
+}
+.news{
+	border-bottom: none;
+	margin-right: 100px;
+	padding-left: 10px;
+	font-size: 25px;
+	background: white;
+	padding-top: 20px;
+}
+.news a{
+	text-decoration: none;
+	color:black;
+}
+.news hr{
+	background: #872123;
+	bottom: -5px;
+	content: "";
+	width: 50px;
+	height: 5px;
+	left: 0;
+}
+.news ul{
+	padding:10px;
+	list-style: outside none none;
+	margin-left: 15px;
+	font-size: 15px;
+}
+.news li{
+	margin-bottom: 10px;
+}
+.news>li>a:hover{
+	color: #691b1d;
+}
+.cont a{
+	color:#303030;
+}
+.cont a:hover{
+	color:#691b1d;
+	text-decoration: none;
+}
+.news-content ul>li>a:hover{
+	color: #691b1d;
+}
+.meta a{
+	margin-left: 10px;
+	
+	color: #999;
+}
+.meta a:hover{
+	color: #691b1d;
+	text-decoration: none;
+}
+
+.footer{
+	margin-top: 40px;
+	background: #872123;
+}
+.footer .nav>li>a{
+	color:yellow;
+	margin-bottom: 20px;
+}
+.footer .nav>li>a:hover{
+	color: white;
+	background: none;
+}
+.footer .container{
+
+	border-bottom: 2px solid rgba(255, 255, 255, 0.14);
+
+}
+.copyright{
+	line-height: 50px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+	opacity: .5;
+}
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	/* image replacement properties */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+	-moz-transition: opacity .3s 0s, visibility 0s 0s;
+	transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+	opacity: .5;
+}
+.no-touch .cd-top:hover {
+	background-color: #e86256;
+	opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+	.cd-top {
+		right: 20px;
+		bottom: 20px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.cd-top {
+		height: 60px;
+		width: 60px;
+		right: 30px;
+		bottom: 30px;
+	}
+}

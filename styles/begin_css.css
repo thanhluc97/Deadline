@@ -38,6 +38,18 @@ input, input:focus {
   max-width: 960px;
   height: auto;
 }
+
+.navbar-header{
+  display: inline-block;
+}
+.wrap-menu button {
+  margin-right: 10px;
+  margin: 0px;
+  background: #fff568;
+}
+.wrap-menu button span.icon-bar {
+  background: #691b1d;
+}
 body,h1,h2,h3,h4,p,a {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -62,8 +74,26 @@ body,h1,h2,h3,h4,p,a {
    Responsive CSS Landscape Mobile
    ========================================================================== */
    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    header .navbar-header h1 img {
+      width: 70%;
+      line-height: 0;
+    }
+    .navbar-header .hotline {
+      margin-top: : 10px;
+      width: 40%;
+      position: initial;
+      display: block;
+      padding-bottom: 10px;
 
-   }
+    }
+    .wrap-menu button {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      display: inline-block;
+    }
+
+  }
 
 
 /* ==========================================================================
@@ -74,14 +104,21 @@ body,h1,h2,h3,h4,p,a {
       width: 70%;
       line-height: 0;
     }
-    header .hotline {
-      float: left;
-      padding-top: 10px;
-      width: 50%;
+    .navbar-header .hotline {
+      margin-top: : 10px;
+      width: 40%;
       position: initial;
       display: block;
-      padding-bottom: 15px;
+      padding-bottom: 10px;
+
     }
+    .wrap-menu button {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      display: inline-block;
+    }
+
   }
   header .wrap-menu{
     min-height: 90px;
@@ -130,7 +167,7 @@ body,h1,h2,h3,h4,p,a {
   .fa-info:before {
     content: "\f129";
   }
-  .swrap-product h3{
+  .wrap-product h3{
     color: #fff568;
   }
   .wrap-product hr, .wrap-info hr, .wrap-feeling hr {
@@ -206,9 +243,9 @@ hr {
 }
 
 .wrap-comment {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background: #ebebeb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #ebebeb;
 }
 .box{
   margin:auto;
@@ -243,7 +280,7 @@ hr {
 }
 .infomation{
  float: right;
-  padding-top: 50px;
+ padding-top: 50px;
 }
 .name{
   text-align: center;
@@ -253,16 +290,16 @@ hr {
 .email{
   margin-right: 10px;
   font-size: 15px;
- font-style: italic;
+  font-style: italic;
 }
 
 
 .left-btn{
-  margin-left: -160px;
+  margin-left: -100px;
 }
 .right-btn{
   margin-left: 1100px;
-  }
+}
 .wrap-info p{
   font-size: 20px;
   margin-bottom: 20px;
@@ -282,6 +319,11 @@ hr {
   width: 60%;
   padding: 20px 0px 20px 0px;
 }
+
+footer{
+  padding-top: 30px;
+}
+
 .main-footer h4 i{
   float: right;
 }
@@ -294,37 +336,59 @@ hr {
 }
 .main-footer p{
   color: white;
-  margin-bottom: 20px;
 }
 .main-footer .row{
-  margin-bottom: 50px;
+ line-height: 17px;
 }
-.if img{
+.social{
+  margin-top: 44px;
+}
+.social a {
+  color: #fff;
+  padding: 12px;
+  border: 1px solid #fff;
+  margin-right: 3px;
+  border-radius: 10px 0px 10px 0px;
+}
+footer .main-footer .item {
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #854749;
+}
+footer .main-footer .item img {
   width: 100px;
-}
-.if .content{
-  float:left;
-}
-.if .av{
+  height: 100px;
   float: left;
 }
-.if h5{ 
-  font-weight: bold;
-  color: white;
-  margin: 0px;
+footer .main-footer .content {
+  padding-left: 110px;
 }
-.if p{
-  margin: 0px;
+
+footer .main-footer .item2 img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.content h5{
+  font-size: 15px;
+  color: white;
 }
 .form-control{
+  border-radius: 0px;
   background: #691b1d;
   margin-bottom: 10px;
 }
-.btn-default{
+.btn{
   background: #691b1d;
   float: right;
 }
+.btn-default {
+  color: white;
+  text-shadow: none;
+}
 .copyright{
+  text-align: center;
+  padding: 15px;
   color: white;
   font-size: 17px;
   background: #5c1315;
